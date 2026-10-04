@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "brickpalette",
+  "version": "${version}",
+  "name": "Brick Palette",
+  "description": "Client-side brush: turn the block you look at into a 50/25/25 mix of stone bricks, mossy and cracked. Works on Realms/servers where you can run /setblock.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.brickpalette.BrickPaletteClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
